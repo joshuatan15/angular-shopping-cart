@@ -1,0 +1,7 @@
+<h1 class="title">Products</h1>
+<div>
+    <button class="ml-10" mat-button color="primary" *ngFor="let category of productCategory" (click)="selectCategory(category)">{{category | uppercase}}</button>
+</div>
+<div class="body">
+    <app-product *ngFor="let product of products" [product]="product" (productAdded)="addProductToCart($event)"></app-product>
+</div>

@@ -1,0 +1,8 @@
+<h1 mat-dialog-title>Rating ({{calculateAverageStars()}} stars)</h1>
+<div mat-dialog-content *ngFor="let rating of data.rating">
+    <ngb-rating [(rate)]="rating.stars" [max]="5" [readonly]="true"></ngb-rating>
+    <div>Comment: {{rating.comments}}</div>
+</div>
+<div mat-dialog-actions>
+    <button mat-button cdkFocusInitial (click)="dismiss()">Ok</button>
+</div>

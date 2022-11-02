@@ -1,0 +1,29 @@
+:host > div {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+  border-bottom: 1px solid black;
+  padding: 20px;
+}
+div:nth-child(1) {
+  font-weight: bold;
+}
+.body {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  margin: auto 0 auto 0;
+}
+.cart-input {
+  height: 30px;
+  width: 60px;
+}
+.total {
+  display: flex;
+  justify-content: flex-end;
+}
+.m-a {
+  margin: auto;
+}

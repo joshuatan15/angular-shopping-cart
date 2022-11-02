@@ -1,0 +1,8 @@
+<div *ngIf="item" class="body">
+    <div class="title">{{item.name}}</div>
+    <div class="total">
+        <span class="m-a">Total: {{totalAmount.toLocaleString('en-GB', {style: 'currency', currency: 'MYR'})}} </span>
+        <input class="cart-input" type="number" [(ngModel)]="item.count" min="0" (ngModelChange)="countChanged()" />
+    </div>
+</div>
+<mat-divider></mat-divider>

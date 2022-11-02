@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "category": "clothes",
+    "name": "T-shirt",
+    "image": "../../assets/images/tshirt-2.jpg",
+    "description": "White cotton T-shirt",
+    "price": 18,
+    "rating": [
+      {
+        "stars": 4,
+        "comments": "Comfortable"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "clothes",
+    "name": "T-shirt with logo",
+    "image": "../../assets/images/t-shirt-with-logo-1.jpg",
+    "description": "Green cotton T-shirt with logo",
+    "price": 18,
+    "rating": [
+      {
+        "stars": 5,
+        "comments": "vVery comfortable"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "category": "clothes",
+    "name": "Long Sleeve Tee",
+    "image": "../../assets/images/long-sleeve-tee-2.jpg",
+    "description": "Green cotton long sleeve tee",
+    "price": 25,
+    "rating": [
+      {
+        "stars": 5,
+        "comments": "Vety good"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "category": "clothes",
+    "name": "Polo shirt",
+    "image": "../../assets/images/polo-2.jpg",
+    "description": "Light blue cotton polo shirt",
+    "price": 20,
+    "rating": [
+      {
+        "stars": 3,
+        "comments": "Nice"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "category": "phone",
+    "name": "IPhone 14 Pro Max",
+    "image": "../../assets/images/iphone-14-pro-max.jpg",
+    "description": "Deep Purple 256GB",
+    "price": 6299,
+    "rating": [
+      {
+        "stars": 3,
+        "comments": "Nice"
+      },
+      {
+        "stars": 1,
+        "comments": "very bad"
+      },
+      {
+        "stars": 1,
+        "comments": "got issue, cant restart"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "category": "phone",
+    "name": "Samsung S22 Ultra",
+    "image": "../../assets/images/Galaxy_S22_Ultra_PR_main3.jpg",
+    "description": "Burgundy 256GB",
+    "price": 5099,
+    "rating": [
+      {
+        "stars": 5,
+        "comments": "The best phone"
+      },
+      {
+        "stars": 1,
+        "comments": "very bad"
+      }
+    ]
+  }
+]

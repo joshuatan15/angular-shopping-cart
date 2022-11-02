@@ -1,0 +1,17 @@
+:host {
+  border: 1px solid #000;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.title {
+  padding-left: 10px;
+  font-size: 20px;
+  display: flex;
+}
+.amount {
+  padding-right: 10px;
+  font-size: 20px;
+  text-align: right;
+}
